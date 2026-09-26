@@ -1,5 +1,5 @@
 ## What is it?
-`netapi32.dll` is a windows system [[Dynamic Link Libraries|DLL]] that exposes Microsoft's Network Management API. Primarily provides network management functionality such as providing information on user accounts, groups, domain information, computer information etc.
+`netapi32.dll` is a windows system [[../2. Powershell Investigation/Dynamic Link Libraries|DLL]] that exposes Microsoft's Network Management API. Primarily provides network management functionality such as providing information on user accounts, groups, domain information, computer information etc.
 
 ## Why would an attacker use it
 

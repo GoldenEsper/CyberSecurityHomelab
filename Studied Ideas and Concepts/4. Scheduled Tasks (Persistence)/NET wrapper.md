@@ -1,5 +1,5 @@
 ## What is it?
-A wrapper is used to provide a simpler interface with complex code. A .NET wrapper is just a simpler interface for code within [[Framework .NET|.NET]] infrastructure.
+A wrapper is used to provide a simpler interface with complex code. A .NET wrapper is just a simpler interface for code within [[../2. Powershell Investigation/Framework .NET|.NET]] infrastructure.
 ## Why use it?
 There are three main reasons for using a “wrapper” are as follows
 

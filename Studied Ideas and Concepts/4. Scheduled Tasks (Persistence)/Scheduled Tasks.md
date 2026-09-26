@@ -15,7 +15,7 @@ Ensure that administrative rights are secured to prevent unauthorised task creat
 - Achieved through "WMI Event Subscriptions"
 - Real time response, can be quite complex
 #### NET Wrapper ([[NET wrapper|.Net Wrapper]])
-- Utilises [[Framework .NET|.NET]] with wrapper functions to schedule task
+- Utilises [[../2. Powershell Investigation/Framework .NET|.NET]] with wrapper functions to schedule task
 - The wrapper helps to make the execution chain less visible when creating the task
 #### Windows Task scheduler ([[Windows Task Scheduler|WTS]])
 - Can trigger off of defined events (Time, system startup, user logon)
