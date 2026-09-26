@@ -1,11 +1,11 @@
 ## How does it work?
 A system call is a "controlled entry point that allows a user program to request a service from the operating system"
 
-![[../../Images/RegularImages/Pasted image 20260921165216.png]]
+![](../../Images/RegularImages/Pasted%20image%2020260926191318.png)
 ## How is it used?
 Often related to any kind of operation that a user program can perform like creation, termination, forking, moving, communication etc. see below for how they are grouped. Effectively provides a layer of separation between the user mode and the kernel mode. 
 
-![[../../Images/RegularImages/Pasted image 20260921164012.png]]
+![](../../Images/RegularImages/Pasted%20image%2020260926191323.png)
 
 Ref: https://www.geeksforgeeks.org/operating-systems/introduction-of-system-call/
 

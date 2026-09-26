@@ -12,4 +12,4 @@ It's like an automatic car compared with a manual transmission car. For an autom
 ## Use in cybersecurity
 Wrappers essentially expose a different interface to calling applications which hides the complexity of the core program. The wrapper can also enable a program to indirectly interact with sensitive libraries, [[API|API's]], or system functionality by interacting through the .NET layer. This can modify the “execution chain” making the behavior less apparent.
 
-![[../../Images/RegularImages/Designer.jpg]]
+![](../../Images/RegularImages/Pasted%20image%2020260926191341.png)

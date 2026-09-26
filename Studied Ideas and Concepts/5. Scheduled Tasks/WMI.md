@@ -17,4 +17,4 @@ An Instance is the "realisation" of a Class A.K.A it an example of what the clas
 
 Finally Properties are the components that make up the instances. In the example of firefox these properties would be "Process ID, executable path, etc.". What these should be are defined in the class
 
-![[../../Images/RegularImages/Pasted image 20260921163501.png]]
+![](../../Images/RegularImages/Pasted%20image%2020260926191405.png)

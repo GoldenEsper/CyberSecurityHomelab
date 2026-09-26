@@ -10,4 +10,4 @@ Its like a long menu for the kernal of what it can do eg.
 ## Why an attacker may use it?
 When utlising direct [[System calls]] an attacker may build a custom program to load a manual SSN into into the [[EAX]] register.
 
-![[../../Images/RegularImages/Pasted image 20260924093652.png]]
+![](../../Images/RegularImages/Pasted%20image%2020260926191348.png)

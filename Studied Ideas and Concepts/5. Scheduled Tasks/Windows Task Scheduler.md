@@ -13,4 +13,5 @@ Task scheduler operates with 4 main elements.
 3. Powershell (ScheduledTasks) - Modern means of managing tasks (e.g, get-ScheduledTask)
 
 ## Why an attacker may use it?
-![](../../Images/RegularImages/Pasted%20image%2020260926185445.png)
+
+![](../../Images/RegularImages/Pasted%20image%2020260926191353.png)

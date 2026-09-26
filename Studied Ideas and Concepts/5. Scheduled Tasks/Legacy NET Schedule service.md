@@ -20,7 +20,7 @@ In a cybersecurity context, `netapi32.dll` becomes a tool for **Persistence** an
 3. **Evasion through Legacy Paths:**
    Many modern EDR (Endpoint Detection and Response) tools focus heavily on the modern Task Scheduler. By utilizing the legacy Net Schedule Service via `netapi32.dll`, attackers may attempt to operate in "blind spots" where monitoring might be less granular.
 
-![[../../Images/RegularImages/Pasted image 20260921134817.png]]
+![](../../Images/RegularImages/Pasted%20image%2020260926191333.png)
 
 > [!WARNING] Detection Note
 > Because these calls are legitimate administrative functions, they are often difficult to distinguish from routine network management. Detection typically requires **context-based analysis** (e.g., *Is it normal for this specific user/workstation to be scheduling remote jobs at this time?*).
