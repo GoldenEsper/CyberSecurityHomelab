@@ -1,1 +1,0 @@
-COM+ services DLL is a windows system file that is responsible for managing COM+ (Component Object Model). In the context of cybersecurity can be used to grab information from memory.

@@ -1,3 +1,0 @@
-Utilising Credential Guard to isolate secrets in memory. Credential guard places sensitive data in its own virtualised section of memory that is not accessible from the OS. This isolated section of memory does not host any device drivers; it only hosts binaries that are needed for security, nothing else.
-
-Credential guard utilises [[SyncFolder/Studied Ideas and Concepts/4. LSASS Investigation/Privileged Process Integrity]] 
