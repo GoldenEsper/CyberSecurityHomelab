@@ -1,25 +1,24 @@
-Week 1: Obfuscated PowerShell Detection (Defense Evasion)
-
+[Obfuscated PowerShell Detection (Defense Evasion)](https://github.com/GoldenEsper/CyberSecurityHomelab/blob/main/Splunk%20Log%20Investigations/Tests%20Conducted/T1059.001%20-%20Power%20Shell%20Investigation.md)
 - Atomic Test: Invoke-AtomicTest T1059.001 (Encoded PowerShell).
 - SSE Mapping: Unusually Long Command Line / Obfuscated PowerShell.
 - Workflow: Open Splunk Security Essentials, navigate to Find Content, search for "Encoded PowerShell", and inspect the SPL logic.
 - Deliverable: Build a Splunk alert using eval and rex to parse Sysmon Event ID 1 logs, extract encoded strings, and trigger an alert when flags like -enc or -w hidden appear.
 
-Week 2: Credential Theft (LSASS Scraping)
+[Credential Theft (LSASS Scraping)](https://github.com/GoldenEsper/CyberSecurityHomelab/blob/main/Splunk%20Log%20Investigations/Tests%20Conducted/T1003.001%20-%20LSASS%20Credential%20Theft.md)
 
 - Atomic Test: Invoke-AtomicTest T1003.001 (LSASS Dumping).
 - SSE Mapping: LSASS Memory Access / Process Injection.
 - Workflow: Look up "LSASS Process Access" inside SSE to analyze how enterprise rules flag non-standard process access.
 - Deliverable: Write a targeted alert for Sysmon Event ID 10 targeting lsass.exe. Add whitelist logic using a Splunk Lookup Table to filter out legitimate system processes.
 
-Week 3: Persistence Mechanism Identification
+[Persistence Mechanism Identification](https://github.com/GoldenEsper/CyberSecurityHomelab/blob/main/Splunk%20Log%20Investigations/Tests%20Conducted/T1053.005%20-%20Scheduled%20tasks.md)
 
 - Atomic Test: Invoke-AtomicTest T1053.005 (Scheduled Tasks).
 - SSE Mapping: Scheduled Task Creation in Suspicious Paths.
 - Workflow: Search SSE for "Persistence via Scheduled Task" to see how Sysmon Event ID 1 or Windows Event ID 4698 are structured.
 - Deliverable: Build an alert that flags schtasks.exe executions where the task payload executes out of \AppData\, \Temp\, or \Public\.
 
-Week 4: Correlation & Capstone Alerting
+Correlation & Capstone Alerting
 
 - Atomic Test: T1082 (Discovery) followed by T1068 (Privilege Escalation).
 - SSE Mapping: Multi-Event Sequences / Discovery Activity.
