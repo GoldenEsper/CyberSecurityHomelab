@@ -4,9 +4,9 @@ For this project I am configuring an HP EliteDesk 800 G3 with 500 Gb of storage 
 
 # Table of Contents
 
-- [[1. Hardware Setup, Research and deployment]]
-- [[2. Creation of Virtualised Router]]
-- [[3. Setup of Log Generating Machine]]
+- [[SyncFolder/Cyber Security Home Lab Setup/Components of Setup/1. Hardware Setup, Research and deployment]]
+- [[SyncFolder/Cyber Security Home Lab Setup/Components of Setup/2. Creation of Virtualised Router]]
+- [[SyncFolder/Cyber Security Home Lab Setup/Components of Setup/3. Setup of Log Generating Machine]]
 
 # Primary Objectives
 
