@@ -1,5 +1,5 @@
 ## What is it?
-A wrapper is used to provide a simpler interface with complex code. A .NET wrapper is just a simpler interface for code within [[../2. Powershell Investigation/Framework .NET|.NET]] infrastructure.
+A wrapper is used to provide a simpler interface with complex code. A .NET wrapper is just a simpler interface for code within [.NET](../2.%20Powershell%20Investigation/Framework%20.NET.md) infrastructure.
 ## Why use it?
 There are three main reasons for using a “wrapper” are as follows
 
@@ -10,6 +10,6 @@ There are three main reasons for using a “wrapper” are as follows
 It's like an automatic car compared with a manual transmission car. For an automatic car there is a “wrapper” that acts as an intermediary between the driver and the transmission. There is still a transmission that has manual gears however the “wrapper” handles the translation.
 
 ## Use in cybersecurity
-Wrappers essentially expose a different interface to calling applications which hides the complexity of the core program. The wrapper can also enable a program to indirectly interact with sensitive libraries, [[API|API's]], or system functionality by interacting through the .NET layer. This can modify the “execution chain” making the behavior less apparent.
+Wrappers essentially expose a different interface to calling applications which hides the complexity of the core program. The wrapper can also enable a program to indirectly interact with sensitive libraries, [API's](API.md), or system functionality by interacting through the .NET layer. This can modify the “execution chain” making the behavior less apparent.
 
 ![](../../Images/RegularImages/Pasted%20image%2020260926191341.png)

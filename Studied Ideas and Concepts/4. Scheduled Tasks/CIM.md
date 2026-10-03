@@ -1,5 +1,5 @@
 ## What is it?
-It is an object oriented data model that contains information about different parts of an enterprise. Utilising [[WMI]] developer can utilise CIM to create "classes" that can represent a wide range of technologies within a company (E.g. router, application, hard disk drive).
+It is an object oriented data model that contains information about different parts of an enterprise. Utilising [WMI](WMI.md) developer can utilise CIM to create "classes" that can represent a wide range of technologies within a company (E.g. router, application, hard disk drive).
 ## How does it work
 An example of CIM in operation is as follows:
 1. Manager query CIM class representing a desktop

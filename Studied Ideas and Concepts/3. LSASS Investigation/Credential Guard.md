@@ -1,3 +1,3 @@
 Utilising Credential Guard to isolate secrets in memory. Credential guard places sensitive data in its own virtualised section of memory that is not accessible from the OS. This isolated section of memory does not host any device drivers; it only hosts binaries that are needed for security, nothing else.
 
-Credential guard utilises [[Privileged Process Integrity]] 
+Credential guard utilises [Privileged Process Integrity](Privileged%20Process%20Integrity.md)] 

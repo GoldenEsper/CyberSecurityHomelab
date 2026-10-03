@@ -18,7 +18,7 @@ NTLM authentication typically follows the following step-by-step process:
 7. The DC retrieves the user’s password from the database and uses it to encrypt the challenge.
 8. The DC then compares the encrypted challenge and client response. If these two pieces match, then the user is authenticated and access is granted.
 
-NTLM only authenticates the client and not the server and relies on password hashing to obfuscate the password.  NTLM has mostly been replaced by [[Kerberos]]
+NTLM only authenticates the client and not the server and relies on password hashing to obfuscate the password.  NTLM has mostly been replaced by [Kerberos](Kerberos.md)
 
 Weaknesses of NTLM:
 

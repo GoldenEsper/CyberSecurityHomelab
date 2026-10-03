@@ -1,5 +1,5 @@
 ## What is it?
-The windows management instrumentation serves as the fundamental management infrastructure for Windows OS. It is the implementation of [[CIM]] standard.
+The windows management instrumentation serves as the fundamental management infrastructure for Windows OS. It is the implementation of [CIM](CIM.md) standard.
 ## How does it work?
 WMI architecture is composed of several layers.
 1. At the base is the **WMI repository**, a database that stores all the info about a systems hardware software and configuration. 

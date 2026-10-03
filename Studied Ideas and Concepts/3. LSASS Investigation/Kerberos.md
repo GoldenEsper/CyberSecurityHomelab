@@ -3,7 +3,7 @@ Kerberos is an authentication protocol that has three main components:
 2. Key Distribution Center (Auth server and Ticket granting service)
 3. Resource Destination Server (Kerberos enabled service) 
 
-Kerberos has mostly replaced [[NTLM]] which was discussed earlier. The general process for Keberos authentication is as follows:
+Kerberos has mostly replaced [NTLM](NTLM.md) which was discussed earlier. The general process for Keberos authentication is as follows:
 
 1. Principle communicates with the authentication server. It provides its username and password.
 2. The authentication server checks these details against its username and password records. If correct it then generates a ticket GRANTING ticket (TGT) and sends it to the Principle.  

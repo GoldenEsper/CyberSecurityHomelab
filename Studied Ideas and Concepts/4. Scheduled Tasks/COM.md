@@ -5,4 +5,4 @@ COM utilises what is known as COM objects to allow of programs written in differ
 
 COM interfaces are utilised to access the fields that a COM object holds. Clients must request an interface to gain access to the object.
 ## What is it's replacement?
-The [[../2. Powershell Investigation/Framework .NET|.NET Framework]] is replacing COM. However COM objects can still be accessed via .NET language via the tool COM interop which adds a [[NET wrapper|wrapper]]. 
+The [.NET Framework](../2.%20Powershell%20Investigation/Framework%20.NET)] is replacing COM. However COM objects can still be accessed via .NET language via the tool COM interop which adds a [NET wrapper](NET%20wrapper.md). 

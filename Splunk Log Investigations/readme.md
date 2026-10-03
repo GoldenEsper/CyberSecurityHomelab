@@ -27,4 +27,4 @@ Correlation & Capstone Alerting
 
 To learn: 
 - Understand behavioural techniques
-- Understand trends in logs and what can make somthing suspicious
+- Understand trends in logs and what can make something suspicious

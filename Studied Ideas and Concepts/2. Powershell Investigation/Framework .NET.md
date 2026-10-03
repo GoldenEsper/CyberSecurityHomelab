@@ -8,4 +8,4 @@ Just In Time Compiler as it compiles the instructions “just in time” for the
     
 - Full access to windows internals (Win32 API)
     
-- Evading binary check, does not require powershell.exe to run as it can call upon System.Management.Automation.DLL which will call the [[Dynamic Link Libraries]] assembly directly without ever using powershell.exe hence evading any detections or blocks specifically looking for powershell.exe.
+- Evading binary check, does not require powershell.exe to run as it can call upon System.Management.Automation.DLL which will call the [Dynamic Link Libraries](Dynamic%20Link%20Libraries.md) assembly directly without ever using powershell.exe hence evading any detections or blocks specifically looking for powershell.exe.

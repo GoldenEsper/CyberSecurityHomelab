@@ -8,7 +8,7 @@ Task scheduler operates with 4 main elements.
 4. Settings - Define how task behaves if fails or is already running
 
 ## Methods of interaction:
-1. GUI (`taskschd.msc`) - [[MMC|Microsoft Management Console]] snap-in used for visual management.
+1. GUI (`taskschd.msc`) - [Microsoft Management Consol](MMC) snap-in used for visual management.
 2. Command Line (`schtasks.exe`) - CLI tool used for the creation, deletion and changing of tasks
 3. Powershell (ScheduledTasks) - Modern means of managing tasks (e.g, get-ScheduledTask)
 
