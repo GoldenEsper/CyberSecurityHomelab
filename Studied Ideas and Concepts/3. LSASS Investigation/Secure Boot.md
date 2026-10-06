@@ -1,0 +1,3 @@
+Secure boot is utilised by windows to prevent the running of unauthorized scripts during boot. It does this by ensuring each process running during boot has the appropriate digital signature to run. The digital signature is given to respective processes before installation. It then checks those digital signatures against the trusted cryptographic databases stored in the motherboards flash memory. If any file is unsigned modified or signed by an untrusted key the firmware halts boot process. 
+
+Effectively acts as a gatekeep for the hardware to OS handoff before windows starts taking the reigns.

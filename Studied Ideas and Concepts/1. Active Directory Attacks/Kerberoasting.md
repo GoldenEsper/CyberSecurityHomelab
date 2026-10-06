@@ -8,7 +8,7 @@
 
 ## Detection
 To detect [[Kerberoasting]], security professionals should monitor for anomalous [Kerberos](../3.%20LSASS%20Investigation/Kerberos.md) activity, specifically:
-* **[Sysmon](../2.%20Powershell%20Investigation/Sysmon.md) Logs:** Monitor for unusual network traffic patterns or specific authentication events related to service ticket requests.
+* Logs:** Monitor for unusual network traffic patterns or specific authentication events related to service ticket requests.
 * **TGS Request Spikes:** An unusual volume of `TGS-REQ` requests from a single workstation or user can indicate an attacker scanning for SPNs.
 * **Anomalous Account Activity:** Monitor for service accounts performing authentication patterns that deviate from their normal baseline.
 

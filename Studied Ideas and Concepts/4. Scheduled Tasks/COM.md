@@ -1,5 +1,5 @@
 ## What is it?
-The **component object model** is a framework developed by Microsoft to enable different software components to interact with each other. It is only available on Microsoft Windows and Apple's Core Foundation 1.3 
+The **component object model** is a framework developed by Microsoft to enable different software components to interact with each other. It is only available on Microsoft Windows
 ## How does it work?
 COM utilises what is known as COM objects to allow of programs written in different languages to interact with one another. This allows for reusable code components that can be integrated larger applications. 
 

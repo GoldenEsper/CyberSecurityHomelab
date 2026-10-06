@@ -1,5 +1,5 @@
 ## What is it?
-System Service Number is a unique integer assigned by the operating system to every specific [Kernel](../3.%20LSASS%20Investigation/Kernel.md) function. They are dynamic and so SSN's can change from a windows update. 
+System Service Number is a unique integer assigned by the operating system to every specific [Kernel](../3.%20LSASS%20Investigation/Kernel.md) function.  On windows these are static to ensure driver compatibility
 ## How is it implemented
 Its like a long menu for the kernal of what it can do eg.
 *service 1: create file*

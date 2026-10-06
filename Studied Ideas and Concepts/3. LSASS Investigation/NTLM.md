@@ -1,15 +1,15 @@
 New Technology LAN Manager (NTLM) is a set of Microsoft security protocols intended to provide confidentiality, integrity and confidentiality to users. Consists of three messages:
 
-1. Negotiation Message - From Client
-2. Challenge Message - From Server
-3. Authentication Message - From Server
+- Client → Server: Negotiate (NTLM Type 1)
+- Server → Client: Challenge (NTLM Type 2)
+- Client → Server: Authenticate / Response (NTLM Type 3)
 ![](../../Images/RegularImages/Pasted%20image%2020260926185356.png)
 
 Here is the NTLM process as described by the crowdstrike page:
 
 NTLM authentication typically follows the following step-by-step process:
 
-1. The user shares their username, password and domain name with the client.
+1. User enters credentials into WinLogon, the client sends username and challenge-response hash. 
 2. The client develops a scrambled version of the password — or hash — and deletes the full password.
 3. The client passes a plain text version of the username to the relevant server.
 4. The server replies to the client with a challenge, which is a 16-byte random number.
