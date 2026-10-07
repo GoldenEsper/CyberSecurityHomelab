@@ -1,6 +1,6 @@
 # Discovery & Privilege Escalation Correlation (T1082 + T1068)
 
-> [!abstract] AI Summary
+> AI Summary
 > Engineered a multi-event correlation alert detecting when 3+ reconnaissance commands (`whoami`, `systeminfo`, `net user`, `netstat`) occur within 300 seconds of a privilege escalation event (`sc create` / driver loading). Used Splunk `join` and sub-searches with rolling time windows to correlate Sysmon and Windows security events across endpoints.
 
 ---
@@ -76,12 +76,12 @@ The data fetched from this whole process is all displayed within the PowerShell 
 
 ![Pasted image 20261003191943.png](../../Images/RegularImages/Pasted%20image%2020261003191943.png)
 
-> [!summary] Key Finding
+> Key Finding
 > System discovery via `systeminfo` and `reg query` generates multiple event types (EventID 1, 4688, 13). Cross-referencing these via process GUID links the full discovery chain.
 
 ### Test 2: Privilege Escalation
 
-> [!info] Test Detail
+> Test Detail
 > **Method:** Older signed Intel driver (CVE-2015-2291) and VirtualBox signed driver
 > **Result:** Windows Defender blocklist prevented Intel driver; VirtualBox driver loaded but did not escalate privileges
 
@@ -130,7 +130,7 @@ The method of operation for this alert is as follows:
 
 This alert, as it is, will fire no matter if there are zero detected results for the sub-search. This is where the `stats count as recon_count` comes in. To finalise the alert, `| where recon_count >= 3` can be used on the end of the search to ensure that at least three reconnaissance commands have been run within 300 seconds of the privilege escalation.
 
-> [!summary] Key Finding
+> Key Finding
 > Multi-event correlation via Splunk `join` and sub-searches enables detection of reconnaissance followed by privilege escalation within a rolling time window. The `recon_count >= 3` threshold prevents false positives from isolated commands.
 
 ---
