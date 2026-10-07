@@ -8,4 +8,4 @@ The repo contains my project summaries, notes and resources used throughout my c
 
 > *Use of AI in the creation of this project*
 > - All notes throughout this Repo are my own unless noted with *AI Summary* or *AI generated*
-> - AI was utilised as research tool alongside standard research methods. Where possible (when I remember) 
+> - AI was utilised as research tool alongside standard research methods. Where possible (when I remember) I have added the main resources I have pulled my information from.
