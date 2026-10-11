@@ -20,4 +20,3 @@ Developed custom Splunk detection rules mapped to MITRE ATT&CK techniques, valid
 - AI Summary
 > Engineered a multi-event correlation alert detecting when 3+ reconnaissance commands (`whoami`, `systeminfo`, `net user`, `netstat`) occur within 300 seconds of a privilege escalation event (`sc create` / driver loading). Used Splunk `join` and sub-searches with rolling time windows to correlate Sysmon and Windows security events across endpoints.
 
-p
