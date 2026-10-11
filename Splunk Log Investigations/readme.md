@@ -5,28 +5,21 @@ Developed custom Splunk detection rules mapped to MITRE ATT&CK techniques, valid
 ---
 
 [T1059.001 - Power Shell Investigation](Tests%20Conducted/T1059.001%20-%20Power%20Shell%20Investigation.md)
-- Atomic Test: Invoke-AtomicTest T1059.001 (Encoded PowerShell).
-- SSE Mapping: Unusually Long Command Line / Obfuscated PowerShell.
-- Workflow: Open Splunk Security Essentials, navigate to Find Content, search for "Encoded PowerShell", and inspect the SPL logic.
-- Deliverable: Build a Splunk alert using eval and rex to parse Sysmon Event ID 1 logs, extract encoded strings, and trigger an alert when flags like -enc or -w hidden appear.
+- AI Summary
+> Investigated and detected obfuscated PowerShell execution using Atomic Red Team test T1059.001. Validated Splunk Universal Forwarder XML field extraction, installed the Splunk Windows Add-On, and built alerts using `eval` and `rex` to parse Sysmon Event ID 1 logs for suspicious flags (`-enc`, `-w hidden`).
 
 [T1003.001 - LSASS Credential Theft](Tests%20Conducted/T1003.001%20-%20LSASS%20Credential%20Theft.md)
-- Atomic Test: Invoke-AtomicTest T1003.001 (LSASS Dumping).
-- SSE Mapping: LSASS Memory Access / Process Injection.
-- Workflow: Look up "LSASS Process Access" inside SSE to analyze how enterprise rules flag non-standard process access.
-- Deliverable: Write a targeted alert for Sysmon Event ID 10 targeting lsass.exe. Add whitelist logic using a Splunk Lookup Table to filter out legitimate system processes.
+- AI Summary
+> Developed detection for LSASS memory dumping attacks using ProcDump, Dumpert, Nanodump, and comsvcs.dll. Built Splunk alert on Sysmon Event ID 10 targeting unauthorized lsass.exe access with whitelist logic (MsMpEng.exe, taskmgr.exe, csrss.exe) via Splunk Lookup Tables. Validated detection across multiple dumping tools and tuned alert throttling to prevent alert fatigue.  
+
 
 [T1053.005 - Scheduled tasks](Tests%20Conducted/T1053.005%20-%20Scheduled%20tasks.md)
-- Atomic Test: Invoke-AtomicTest T1053.005 (Scheduled Tasks).
-- SSE Mapping: Scheduled Task Creation in Suspicious Paths.
-- Workflow: Search SSE for "Persistence via Scheduled Task" to see how Sysmon Event ID 1 or Windows Event ID 4698 are structured.
-- Deliverable: Build an alert that flags schtasks.exe executions where the task payload executes out of \AppData\, \Temp\, or \Public\.
+- AI Summary
+> Investigated multiple scheduled task persistence vectors including COM automation, WMI/PS_ScheduledTask, VBA macro execution, and registry-encoded payloads. Built detection on Windows Event ID 4698 and Sysmon Event ID 1, configured Local Security Policy audit subcategories for complete log coverage, and identified suspicious execution paths (`\AppData\`, `\Temp\`, `\Public\`).
 
 [T1082, T1068 - Correlation & Capstone Alerting](Tests%20Conducted/T1082,%20T1068%20-%20Correlation%20&%20Capstone%20Alerting.md)
-- Atomic Test: T1082 (Discovery) followed by T1068 (Privilege Escalation).
-- SSE Mapping: Multi-Event Sequences / Discovery Activity.
-- Workflow: Review SSE rules under the Correlation Searches category to learn how to link multiple event IDs over a rolling time window.
-- Deliverable: Create a single Splunk alert that triggers only when 3+ rapid reconnaissance commands occur on an endpoint within 5 minutes of a process elevation. Save these alerts to an executive Splunk dashboard.
+ AI Summary
+> Engineered a multi-event correlation alert detecting when 3+ reconnaissance commands (`whoami`, `systeminfo`, `net user`, `netstat`) occur within 300 seconds of a privilege escalation event (`sc create` / driver loading). Used Splunk `join` and sub-searches with rolling time windows to correlate Sysmon and Windows security events across endpoints.
 
 To learn: 
 - Understand behavioral techniques
