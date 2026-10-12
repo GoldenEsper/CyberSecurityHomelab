@@ -2,7 +2,8 @@
 
 The repo contains my project summaries, notes and resources used throughout my cybersecurity journey!
 
-![Static Badge](https://img.shields.io/badge/LinkedIn-Blue?style=flat&link=link%5Bhttps%3A%2F%2Fwww.linkedin.com%2Fin%2Fcaleb-wright-b48545328%2F%5D)
+![Static Badge](https://img.shields.io/badge/LinkedIn-Blue?style=flat&link=link%20string%5Bhttps%3A%2F%2Fwww.linkedin.com%2Fin%2Fcaleb-wright-b48545328%2F%5D)
+
 
 1. [Cyber Security Home Lab Setup](Cyber%20Security%20Home%20Lab%20Setup/readme.md)- Contains the details on the hardware and software deployment of the home server
 2. [Splunk Log Investigations](Splunk%20Log%20Investigations/readme.md)- Contains the summary's of log analysis conducted on home lab server. Logs are created utilising AtomicRedTeam 
