@@ -6,7 +6,7 @@
 
 I am currently working as an Electronics Technician within the Australian Defence force and I am looking to transition into Cybersecurity. 
 
-Currently studying SOC analyst workflows and security engineering concepts. CompTIA Security+ Certified with hands-on experience in Splunk log analysis, threat simulation with Atomic Red Team, and home lab infrastructure 
+Currently studying SOC analyst workflows and security engineering concepts. CompTIA Security+ Certified with experience in Splunk log analysis, threat simulation utilising Atomic Red Team as well as home lab infrastructure.
 
 This repository documents my cybersecurity learning journey which can be seen below
 
