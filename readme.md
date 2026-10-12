@@ -15,7 +15,7 @@ I currently serve as an Electronics Technician in the Australian Defence Force, 
 
 > *Use of AI in the creation of this project*
 > - All notes throughout this Repo are my own unless noted with *AI Summary* or *AI generated*
-> - AI was utilised as research tool alongside standard research methods. Where possible (when I remember) I have added the main resources I have pulled my information from.
+> - AI was utilised as research tool alongside standard research methods. I have added the main resources I have pulled my information from where possible.
 # Projects
 *AI Summary*
 ### 1. [Cyber Security Home Lab Setup](Cyber%20Security%20Home%20Lab%20Setup)
