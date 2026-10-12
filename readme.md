@@ -2,7 +2,7 @@
 
 The repo contains my project summaries, notes and resources used throughout my cybersecurity journey!
 
-![Static Badge](https://img.shields.io/badge/LinkedIn-Blue?style=flat&link=%3Cobject%3Ehttps%3A%2F%2Fwww.linkedin.com%2Fin%2Fcaleb-wright-b48545328%2F)
+<a href="https://www.linkedin.com/in/caleb-wright-b48545328/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 
 
