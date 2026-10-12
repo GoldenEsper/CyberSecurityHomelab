@@ -23,7 +23,7 @@ This repository documents my cybersecurity learning journey which can be seen be
 - Deployed and configured Splunk for centralized log collection from lab endpoints.
 - Simulated attacks using Atomic Red Team and analysed the resulting Windows Event Logs.
 - Mapped detections to MITRE ATT&CK techniques and built Splunk queries for threat identification.
-## 3. [Studied Ideas and Concepts](Studied%20Ideas%20and%20Concepts/readme.md)
+## 3. [Studied Ideas and Concepts](Studied%20Ideas%20and%20Concepts)
 - Researched and documented core cybersecurity concepts including networking, cryptography, and risk management.
 - Practiced technical documentation and knowledge management for SOC workflows.
 
