@@ -15,11 +15,11 @@ This repository documents my cybersecurity learning journey which can be seen be
 > - AI was utilised as research tool alongside standard research methods. Where possible (when I remember) I have added the main resources I have pulled my information from.
 ## Projects
 
-## 1. [Cyber Security Home Lab Setup](Cyber%20Security%20Home%20Lab%20Setup/readme.md)
+## 1. [Cyber Security Home Lab Setup](Cyber%20Security%20Home%20Lab%20Setup)
 - Deployed and managed a Proxmox VE virtualization environment with multiple VMs and containers.
 - Configured an OPNsense firewall with custom rules and network segmentation.
 - Built a Windows domain environment to generate realistic logs for monitoring.
-## 2. [Splunk Log Investigations](Splunk%20Log%20Investigations/readme.md)
+## 2. [Splunk Log Investigations](Splunk%20Log%20Investigations)
 - Deployed and configured Splunk for centralized log collection from lab endpoints.
 - Simulated attacks using Atomic Red Team and analysed the resulting Windows Event Logs.
 - Mapped detections to MITRE ATT&CK techniques and built Splunk queries for threat identification.
