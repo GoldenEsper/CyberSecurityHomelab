@@ -3,7 +3,6 @@
 For this project, I am configuring an HP EliteDesk 800 G3 with 500 GB of storage and an initial 8 GB of RAM, running Proxmox to enable experimentation with enterprise-level cybersecurity tools.
 
 
-<mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="SleDnQgNpbo-9ImH9l-U">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -73,7 +72,7 @@ For this project, I am configuring an HP EliteDesk 800 G3 with 500 GB of storage
       </root>
     </mxGraphModel>
   </diagram>
-</mxfile>
+
 # Table of Contents
 
 1. [Hardware Setup, Research and deployment](Components%20of%20Setup/1.%20Hardware%20Setup,%20Research%20and%20deployment.md)
