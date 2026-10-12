@@ -1,11 +1,11 @@
 # Introduction
 
-For this project I am configuring an HP EliteDesk 800 G3 with 500 Gb of storage and an initial 8gb of RAM with ProxMox OS to enable me to experiment with enterprise level cybersecurity 
+For this project, I am configuring an HP EliteDesk 800 G3 with 500 GB of storage and an initial 8 GB of RAM, running Proxmox to enable experimentation with enterprise-level cybersecurity tools.
 # Table of Contents
 
-1. ![Hardware Setup, Research and deployment](https://github.com/GoldenEsper/CyberSecurityHomelab/blob/main/Cyber%20Security%20Home%20Lab%20Setup/Components%20of%20Setup/1.%20Hardware%20Setup%2C%20Research%20and%20deployment.md)
-2. ![Creation of Virtualised Router](https://github.com/GoldenEsper/CyberSecurityHomelab/blob/main/Cyber%20Security%20Home%20Lab%20Setup/Components%20of%20Setup/2.%20Creation%20of%20Virtualised%20Router.md)
-3. ![Setup of Log Generating Machine](https://github.com/GoldenEsper/CyberSecurityHomelab/blob/main/Cyber%20Security%20Home%20Lab%20Setup/Components%20of%20Setup/3.%20Setup%20of%20Log%20Generating%20Machine.md)
+1. [Hardware Setup, Research and deployment](Components%20of%20Setup/1.%20Hardware%20Setup,%20Research%20and%20deployment.md)
+2. [Creation of Virtualised Router](Components%20of%20Setup/2.%20Creation%20of%20Virtualised%20Router.md)
+3. [Setup of Log Generating Machine](Components%20of%20Setup/3.%20Setup%20of%20Log%20Generating%20Machine.md)
 # Primary Objectives
 
 1. Build a functioning Proxmox server
